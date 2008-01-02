@@ -18,6 +18,7 @@ Source:		http://files.icon-king.com/%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=5358
 Requires:	kdebase-progs
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 Obsoletes:	kdemoreartwork-%{theme_name}
 Provides:	kdemoreartwork-%{theme_name}
 
