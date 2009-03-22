@@ -3,7 +3,7 @@
 %define theme_name	nuvola
 %define version		1.0
 %define name		%{base_name}-%{theme_name}
-%define rel             6
+%define rel             7
 %define release		%mkrel %rel
 %define summary          Nuvola icons for KDE Desktop
 
@@ -16,7 +16,7 @@ License:	LGPL
 Group:		Graphical desktop/KDE
 Source:		http://files.icon-king.com/%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=5358
-Requires:	kdebase-progs
+Requires:	kdebase3-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 Obsoletes:	kdemoreartwork-%{theme_name}
