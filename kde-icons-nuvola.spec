@@ -3,7 +3,7 @@
 %define theme_name	nuvola
 %define version		1.0
 %define name		%{base_name}-%{theme_name}
-%define rel             7
+%define rel             8
 %define release		%mkrel %rel
 %define summary          Nuvola icons for KDE Desktop
 
