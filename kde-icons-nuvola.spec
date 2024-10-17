@@ -15,7 +15,7 @@ Summary:	%{summary}
 License:	LGPL
 Group:		Graphical desktop/KDE
 Source:		http://files.icon-king.com/%{theme_name}-%{version}.tar.bz2
-URL:		http://kde-look.org/content/show.php?content=5358
+URL:		https://kde-look.org/content/show.php?content=5358
 Requires:	kdebase3-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
