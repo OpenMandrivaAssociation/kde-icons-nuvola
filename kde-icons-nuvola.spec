@@ -4,7 +4,7 @@
 %define version		1.0
 %define name		%{base_name}-%{theme_name}
 %define rel             9
-%define release		%mkrel %rel
+%define release %rel.1
 %define summary          Nuvola icons for KDE Desktop
 
 
@@ -104,7 +104,7 @@ rm -rf %buildroot
 
 
 
-* Tue Jul 11 2006 Nicolas Lécureuil <neoclust@mandriva.org> 1.0-5mdv2007.0
+* Tue Jul 11 2006 Nicolas Lï¿½cureuil <neoclust@mandriva.org> 1.0-5mdv2007.0
 - Rebuild for new extension
 
 * Thu Apr 06 2006 Sebastien Savarin <plouf@mandriva.org> 1.0-4mdk
@@ -116,7 +116,7 @@ rm -rf %buildroot
 -rename icons kmenu.png > menuk-mdk.png kfm_home.png > home-mdk.png
  icons.png > desktop-mdk.png at build
 
-* Fri Mar 18 2005 Nicolas Lécureuil <neoclust@mandrake.org> 1.0-2mdk
+* Fri Mar 18 2005 Nicolas Lï¿½cureuil <neoclust@mandrake.org> 1.0-2mdk
 - Rebuild
 
 * Mon Oct 25 2004 Laurent Culioli <laurent@mandrake.org> 1.0-1mdk
